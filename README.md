@@ -183,5 +183,4 @@ Cloud Engineer • Lifelong Learner
 ## ⭐ Final Note
 
 If you find this book useful, consider starring the repository and sharing it with your team or community.  
-Terraform is a journey — and this book is your complete guide to mastering it.
-
+Terraform is a journey — and this book is your complete guide to mastering it. This book was created as part of a self‑learning journey into Terraform, supported by AI tools to help structure the content, improve clarity, and accelerate the writing process.
