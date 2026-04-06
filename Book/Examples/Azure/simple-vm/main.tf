@@ -1,4 +1,3 @@
-```hcl
 provider "azurerm" {
   features {}
 }
@@ -36,4 +35,3 @@ resource "azurerm_linux_virtual_machine" "vm" {
     version   = "latest"
   }
 }
-```
