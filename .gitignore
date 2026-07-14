@@ -19,3 +19,31 @@ temp/
 # Node / Python (if used for tooling)
 node_modules/
 __pycache__/
+
+# Local .terraform directories (contains downloaded plugins and modules)
+**/.terraform/*
+
+# .tfstate files (contains sensitive plain-text infrastructure data)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all variable files as they often contain secrets
+*.tfvars
+*.tfvars.json
+
+# Exclude override files as they are meant for local testing variations
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you explicitly wish to add to version control
+# !override.tf
+
+# Include micro-client cache files
+.terraform.rc
+terraform.rc

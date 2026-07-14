@@ -22,7 +22,7 @@ resource "azurerm_monitor_diagnostic_setting" "diagnostic_setting" {
   target_resource_id = azurerm_application_insights.appinsights.id
 
   # At least one of these must be non-null
-  storage_account_id             = var.storage_account_id
+  storage_account_id = var.storage_account_id
 
   enabled_metric {
     category = "AllMetrics"
